@@ -51,6 +51,6 @@ def main():
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         print('Usage: ')
-        exit('$ rosrun data_collection data_collection.py your_data_id')
+        exit('$ rosrun data_collection data_collection.py save_data_path')
 
     main()
